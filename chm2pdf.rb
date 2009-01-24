@@ -4,7 +4,7 @@
 #
 # (Requires chmlib and htmldoc installed.)
 #
-# Copyright 2008 Stateful Labs <mark@stateful.net>
+# Copyright 2008-2009 Stateful Labs <mark@stateful.net>
 # All rights reserved.
 
 require 'fileutils'
@@ -17,7 +17,7 @@ pdf_bin = `which htmldoc`.gsub("\n","")
 
 def banner
 	puts "chm2pdf #{VER}"
-	puts "Copyright (c) 2008, Stateful Labs. All rights reserved."
+	puts "Copyright (c) 2008-2009, Stateful Labs. All rights reserved."
 end
 
 def help
